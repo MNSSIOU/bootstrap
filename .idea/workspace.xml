@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="320f6aa3-4fb0-46c4-9925-a85f4d3626c3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/refs/enter.png" beforeDir="false" afterPath="$PROJECT_DIR$/refs/enter.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/refs/pc.png" beforeDir="false" afterPath="$PROJECT_DIR$/refs/pc.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/refs/scroll.png" beforeDir="false" afterPath="$PROJECT_DIR$/refs/scroll.png" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -123,7 +124,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="2" />
     <option name="y" value="58" />
     <option name="width" value="1346" />
@@ -197,12 +198,12 @@
       <workItem from="1559804527438" duration="21458000" />
       <workItem from="1559828842782" duration="3008000" />
       <workItem from="1559887512365" duration="19549000" />
-      <workItem from="1559972905241" duration="6109000" />
+      <workItem from="1559972905241" duration="7011000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="168618000" />
+    <option name="totallyTimeSpent" value="169520000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
