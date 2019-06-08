@@ -13,7 +13,7 @@
 
   |##### 1.2 平板端展示| 1.3 手机端展示|
   
-| ![pad](https://github.com/MNSSIOU/bootstrap/blob/master/refs/pad.png)  | ![phone](https://github.com/MNSSIOU/bootstrap/blob/master/refs/phone.png)  |
+| |![pad](https://github.com/MNSSIOU/bootstrap/blob/master/refs/pad.png)  | |![phone](https://github.com/MNSSIOU/bootstrap/blob/master/refs/phone.png)  |
 
 > ### 2. 自定义浏览器滚动条+嵌入百度地图API+入场动画
 
@@ -24,10 +24,6 @@
 ##### 2.2入场动画
 
 ![enter](https://github.com/MNSSIOU/bootstrap/blob/master/refs/enter.png)
-
-##### 2.3自定义滚动条
-
-![scroll](https://github.com/MNSSIOU/bootstrap/blob/master/refs/scroll.png)
 
 ## 使用的插件
 > * jquery.countup.min.js
