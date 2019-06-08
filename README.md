@@ -7,24 +7,40 @@
 
 > ### 1. Html5 + css3 +Bootstrap 自适应手机、平板、电脑端
 
-   ##### 1.1 电脑端展示
+  |  1.1 电脑端显示 |
+  | :-------------:|
+  
+  |  ![pc](https://github.com/MNSSIOU/bootstrap/blob/master/refs/pc.png) |
+  | :-------------:|
    
-  ![pc](https://github.com/MNSSIOU/bootstrap/blob/master/refs/pc.png) 
 
-  ##### 1.2 平板端展示 						1.3 手机端展示
+  |  1.2 平板端展示   |  1.3手机端展示  |
+  | :-------------: |:-------------:|
   
-![pad](https://github.com/MNSSIOU/bootstrap/blob/master/refs/pad.png) ![phone](https://github.com/MNSSIOU/bootstrap/blob/master/refs/phone.png)
+  | ![pad](https://github.com/MNSSIOU/bootstrap/blob/master/refs/pad.png)   | ![phone](https://github.com/MNSSIOU/bootstrap/blob/master/refs/phone.png)  |
+  | :-------------:|:-------------:| 
 
+> ### 2. 自定义浏览器滚动条+嵌入百度地图API+入场动画
+
+  |  2.1 嵌入百度地图 |
+  | :-------------:  |
+ 
+  |  ![map](https://github.com/MNSSIOU/bootstrap/blob/master/refs/map.png) |
+  | :-------------:|
+
+
+  |  2.2 入场动画     |
+  | :-------------:  |
   
-  > ### 2. 自定义浏览器滚动条+嵌入百度地图API+入场动画
+  | ![move](https://github.com/MNSSIOU/bootstrap/blob/master/refs/move.png) |
+  | :-------------:|
 
-##### 2.1嵌入百度地图
+  |  2.3 自定义滚动条  |
+  | :-------------:   |
+  
+  | ![scroll](https://github.com/MNSSIOU/bootstrap/blob/master/refs/scroll.png) |
+  | :-------------:|
 
-![map](https://github.com/MNSSIOU/bootstrap/blob/master/refs/map.png)
-
-##### 2.2入场动画
-
-![move](https://github.com/MNSSIOU/bootstrap/blob/master/refs/move.png)
 
 ## 使用的插件
 > * jquery.countup.min.js
