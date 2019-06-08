@@ -1,0 +1,815 @@
+
+body{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    overflow-x: hidden;
+    background: #fff;
+}
+
+/* 百度地图样式 */
+.iw_poi_title {
+    color:#CC5522;
+    font-size:14px;
+    font-weight:bold;
+    overflow:hidden;
+    padding-right:13px;
+    white-space:nowrap
+}
+.iw_poi_content {
+    font:12px arial,sans-serif;
+    overflow:visible;
+    padding-top:4px;
+    white-space:-moz-pre-wrap;
+    word-wrap:break-word
+}
+#allmap{
+    width: 100%;
+    height: 500px;
+}
+.baidumap{
+    padding-left: 0;
+    padding-right: 0;
+
+}
+.baidumap::after{
+    background: rgba(0,0,0,.6);
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 11;
+    top: 0;
+    left: 0;
+}
+
+.fire-icon{
+    width: 30px;
+    height: 30px;
+    background:#e82c0c;
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.footer-icon{
+    background: rgba(232,44,12,.6);
+    padding: 3px 5px;
+    border-radius: 3px;
+}
+.footer-icon:hover{
+    background:#e82c0c;
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 60px;
+    height: 18px;
+    margin-right: 50px;
+    text-indent: -999px;
+    cursor: pointer;
+    border: none;
+    border-radius: 0;
+    background: url("../../images/lunbo-nav2.png") no-repeat center center;
+}
+.carousel-indicators .active {
+    margin-right: 50px;
+    width: 60px;
+    height: 18px;
+    background: url("../../images/lunbo-nav.png") no-repeat center center;
+}
+
+.fixedbg{
+    min-height: 900px;
+    background-image: url("../../images/fixed.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    z-index: -9999;
+}
+.whitebg{
+    height: 80px;
+    width: 100%;
+    background: #fff;
+}
+.navbar-title{
+     background-color: #fff;
+     border: none;
+     box-shadow: 0 2px 8px 0 rgba(50,50,50,0.25);
+     color: #fff;
+ }
+.navbg{
+    background:black;
+    width: 100%;
+    height: 65px;
+    position: absolute;
+    top: 18%;
+    z-index: -1;
+}
+.navbar-default .navbar-logo,.navbar-default .navbar-logo:hover{
+    height: 100px;
+    background:#E82C0C;
+    padding: 5px;
+}
+.navbar-logo img{
+    margin-top: -5px;
+
+}
+
+.navbar-default .navbar-brand:before {
+    width: 0;
+    height: 0;
+    border-top: 19px solid #AA1600;
+    border-left: 0 solid transparent;
+    border-right: 21px solid transparent;
+    content: "";
+    position: absolute;
+    margin-top: 78px;
+    margin-left: 110px;
+}
+
+.navbar-default .navbar-brand:after {
+    width: 0;
+    height: 0;
+    border-bottom: 21px solid #AA1600;
+    border-left: 0 solid transparent;
+    border-right: 21px solid transparent;
+    content: "";
+    position: absolute;
+    margin-top: -102px;
+    margin-left: 105px;
+}
+.navbar-collapse .link-text li a{
+    font-size: 16px;
+    color: #666;
+    height: 50px;
+    line-height: 38px;
+    font-weight: 600;
+    margin-top: 18px;
+
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover,.nav-first {
+
+    background-color: #E82C0C;
+    height: 65px;
+    color: #fff;
+}
+.navbar-header .navbar-box{
+    margin-top:26px;
+    height: 50px;
+    border: none;
+}
+.navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle:focus {
+     background-color: #E82C0C;
+    color: #fff;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    margin-bottom: 5px;
+    background-color: #fff;
+}
+#home{
+    margin-top: 70px;
+}
+.full-width{
+    padding: 0;
+}
+.carousel-caption h3{
+    color: yellow;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+.carousel-caption .btn{
+    margin-bottom: 100px;
+}
+#brand{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    clear: both;
+}
+.brand-content{
+   text-align: center;
+}
+.brand-content a{
+    color: #0f0f0f;
+    text-decoration:none;
+}
+.brand-content a img{
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.brand-content a h3{
+    margin:20px 0;
+}
+#car-left{
+    background-color: #f8f8f8;
+    padding: 80px 0;
+
+}
+#car-right{
+    padding: 80px 0;
+
+}
+.car-content .span-title{
+    color: #e82c0c;
+}
+#car-left .container .row h3,#car-right .container .row h3{
+    line-height: 35px;
+    margin-bottom: 35px;
+}
+.shadowbox{
+    box-shadow: 0px 2px 9px 0px rgba(0,0,0,0.75);
+}
+
+#footer{
+    background: url("../../images/ftr-bg.jpg") no-repeat center center;
+    height:465px;
+    color: #fff;
+    font-size: 16px;
+    padding-top:20px;
+}
+#footer ul{
+    list-style: none;
+}
+
+#footer .autologo {
+    text-align: center;
+    border-bottom:1px solid #222222 ;
+    padding-bottom: 20px;
+}
+#footer .autologo img{
+
+    opacity: 0.7;
+    width: 190px;
+}
+#footer .footer-body{
+    width: 100%;
+    background: black;
+}
+#footer .one,#footer .two,#footer .three,#footer .four{
+    padding-top: 25px;
+    height: 260px;
+    display: flex;
+    justify-content: center;
+}
+#footer .three{
+    border:none;
+}
+.one-text .text-title {
+    color: #fff;
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    margin-top: 0;
+    line-height: 30px;
+    padding-left: 50px;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+.one-text .text-title::before {
+    background-color: #e82c0c;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+    -webkit-transform: translate(0%, -50%);
+    width: 32px;
+}
+.one-text ul{
+    padding-left: 50px;
+}
+.one-text ul li{
+    font-size: 14px;
+    color: #909090;
+    position: relative;
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+.one-text ul li i{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
+#footer .two{
+    align-items:start;
+    padding-left: 50px;
+    color: #909090;
+}
+#footer .two h5{
+    margin-bottom:20px;
+    font-size: 13px;
+}
+#footer .two h5:hover,.one-text ul li:hover{
+    color: #fff;
+    cursor: pointer;
+}
+
+#footer .footer-icon:first-letter{
+    margin-right: 9px;
+   font-size: 14px;
+}
+#footer .container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+    background-color: black;
+}
+#footer .git-text{
+   text-align: center;
+    height: 50px;
+    line-height: 50px;
+    border-top: 1px solid #222222;
+}
+#footer .git-text a{
+    text-decoration: none;
+    color: #e82c0c;
+    font-size: 14px;
+}
+#footer .git-text img{
+    margin-right:5px;
+
+}
+.tooltip-inner{
+    background-color: rgba(232,44,12,0.5);
+}
+.tooltip-arrow{
+    border-bottom-color: rgba(232,44,12,0.5) !important;
+}
+
+#contact{
+    width: 100%;
+    height: 480px;
+    margin-bottom: 80px;
+}
+#contact .contact-nav{
+    height: 75px;
+    text-align: center;
+    line-height: 75px;
+    color: #fff;
+    background: url("../../images/contact-nav2.jpg") no-repeat center center;
+    background-size: cover;
+}
+#contact .contact-nav ul li{
+    height: 75px;
+}
+
+#contact .contact-nav li span{
+    display: block;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+#contact .contact-us{
+    width: 100%;
+    height: 300px;
+    padding: 100px 0;
+    background: transparent;
+}
+
+.separator_small {
+    width: 30px;
+    height: 2px;
+    margin: 20px 0;
+    background: #E82C0C;
+}
+
+#contact .contactbtn{
+    width: 100%;
+    background: #E82C0C;
+    outline: none;
+    border: none;
+    border-radius: 0;
+    height: 50px;
+    line-height: 37px;
+    font-size: 19px;
+}
+
+#contact .form-control {
+    border-radius: 0px;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 0px 0px rgba(0,0,0,.075);
+    width: 100%;
+    height: 50px;
+}
+#contact .form-content{
+    height: auto;
+}
+#contact .contact-us p{
+    padding-right: 28px;
+}
+
+#maphome,#contacthome{
+    background: transparent;
+    color: rgba(255,255,255,0.8);
+}
+.list-inline{
+    margin-top:45px;
+    margin-bottom: 45px;
+}
+
+.list-inline>li{
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+    height: 30px;
+    width: 30px;
+    background:#e82c0c;
+    border-radius: 50%;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    margin-right: 10px;
+}
+.list-inline>li a{
+    color: #fff;
+}
+.map:hover .baidumap::after{
+    display: none;
+}
+
+#params{
+    height: auto;
+    width: 100%;
+    margin-bottom: 80px;
+    display: flex;
+    align-items: center;
+    background:transparent;
+    padding-top:60px;
+    padding-bottom:60px;
+}
+.grid_left {
+    float: left;
+    background: rgba(221, 223, 226, 0.23);
+    width: 92px;
+    padding: 1em 1em 1em 1em;
+    text-align: center;
+}
+.grid_right {
+    float: left;
+    margin-left: 0em;
+    width: 158px;
+    background: #000;
+    padding: 0.65em 1em;
+    text-align: center;
+}
+.grid_right p {
+    color: #fff;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.grid_left span {
+    color: #E82C0C;
+    top: 5px;
+    font-size: 30px;
+}
+.grid_left span.fa{
+    font-size: 29px;
+    padding: 3px 0;
+}
+
+.count-container .count_grid h4 {
+    font-size: 1.3em;
+    color:#fff;
+    margin: 1em 0 0;
+    letter-spacing: 3px;
+    position: relative;
+    padding: 1em;
+    text-align: center;
+    border: 1px solid #908d8d;
+    width: 250px;
+}
+
+#album{
+    width: 100%;
+    height: auto;
+    margin-top: 80px;
+}
+.album{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.w3layouts_gallery_grid {
+    padding: 0;
+}
+.w3layouts_team_grid {
+    overflow: hidden;
+    position: relative;
+}
+.w3layouts_team_grid_pos {
+    -webkit-transform: scale3d(0,0,1);
+    transform: scale3d(0,0,1);
+}
+
+.w3layouts_team_grid_pos {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    right: 0;
+    -webkit-transition: all 400ms ease;
+    transition: all 400ms ease;
+}
+.wthree_text {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    opacity: 0;
+    -webkit-transform: translateY(0) scale3d(0,0,1);
+    transform: translateY(0) scale3d(0,0,1);
+    -webkit-transition: transform 400ms ease 280ms;
+    transition: transform 400ms ease 280ms;
+}
+.w3layouts_gallery_grid h4 {
+    text-transform: uppercase;
+    font-size: 1.5em;
+    color: #fff;
+}
+.w3layouts_gallery_grid span{
+    display: block;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.w3_agile_team_grid:hover .w3layouts_team_grid_pos, .w3layouts_gallery_grid:hover .w3layouts_team_grid_pos, .w3_agile_class_grid:hover .w3layouts_team_grid_pos {
+    opacity: 1;
+    -webkit-transform: scale3d(1,1,1);
+    transform: scale3d(1,1,1);
+}
+.w3_agile_team_grid:hover .wthree_text, .w3layouts_gallery_grid:hover .wthree_text, .w3_agile_class_grid:hover .wthree_text {
+    opacity: 1;
+    -webkit-transform: translateY(0) scale3d(1,1,1);
+    transform: translateY(0) scale3d(1,1,1);
+    -webkit-transition: transform 400ms ease 380ms;
+    transition: transform 400ms ease 380ms;
+}
+
+#team{
+    width: 100%;
+    height: auto;
+    margin: 60px 0;
+
+}
+#team .team-title{
+    margin-bottom: 40px;
+}
+.team_head{
+    text-align: center;
+    font-size: 2em;
+    color: #212121;
+    text-transform: capitalize;
+}
+.team_head span {
+    color: #E82C0C;
+}
+.team_image img {
+    margin: 0 auto;
+}
+.team_text {
+    margin: 1em 0 0;
+    color: #999;
+    text-align: center;
+    line-height: 2em;
+}
+
+.mis-slider{
+    background-color: rgba(0,0,0,.8);
+}
+.mis-nav-buttons a,.mis-nav-buttons a:hover {
+    color: rgba(232,44,12,.6);
+    cursor: pointer;
+}
+.mis-slide figure{
+    margin-top: -20px;
+    padding: 0;
+}
+.mis-slide figure .mis-content{
+    height: 50px;
+    width: 270px;
+    background:rgba(232,44,12,.9);
+    margin: 0 auto;
+    color: rgba(255,255,255,0.7);
+    position: relative;
+}
+.mis-content .mis-head{
+    width: 100%;
+    height:35px;
+    background: rgba(0,0,0,.7);
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    color: #fff;
+    line-height: 35px;
+}
+
+.mis-content h5{
+   padding-top: 7px;
+    padding-bottom: 5px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.mis-slider .mis-head li{
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+    height: 23px;
+    width: 23px;
+    line-height: 23px;
+    background:#fff;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    margin-right: 20px;
+}
+.mis-slider .mis-head li a{
+    display: inline;
+}
+.mis-slider li img {
+    width: 100%;
+    border-radius:0;
+
+}
+
+#backtop{
+    width: 35px;
+    height: 35px;
+    position: fixed;
+    right: 30px;
+    bottom: 60px;
+
+}
+#backtop a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+}
+#backtop a:hover{
+    opacity: 1;
+}
+
+
+/* 媒体适配 */
+@media screen and (min-width:1780px){
+    .mis-stage{
+        width: 1780px;
+        height: 100%;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width:1200px){
+    .grid_left{
+        width: 80px;
+    }
+    .grid_right{
+        width: 135px;
+    }
+    .count-container .count_grid h4{
+        width: 215px;
+    }
+
+
+}
+
+@media screen and (min-width: 768px) and (max-width:992px){
+
+    .car-content img{
+        margin-top: 35px;
+    }
+    .fixedbg{
+        min-height: 1015px;
+    }
+    #contact{
+     height: 415px;
+     }
+    #contact .contact-nav{
+        background:#fff;
+    }
+    #contact .contact-nav .tabone{
+        background: #e82c0c;
+    }
+    #contact .contact-nav .tabtwo{
+        background: #ddd;
+    }
+    #contact .contact-us{
+        padding: 65px 0;
+    }
+    .list-inline {
+        margin-top: 30px;
+    }
+    #params .count_grid{
+        margin-bottom: 25px;
+        padding-left:10%;
+    }
+
+}
+
+@media screen and (max-width: 760px) {
+    .fixedbg {
+        min-height:1515px;
+    }
+
+    .navbar-collapse .link-text li a{
+        height: 30px;
+        margin-bottom: 15px;
+        text-align: center;
+        line-height: 25px;
+    }
+    .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover, .nav-first {
+        height: 45px;
+    }
+    .car-content {
+        margin-bottom: 50px;
+    }
+    .navbg{
+        position: fixed;
+        top:19px;
+    }
+    #brand{
+        margin-top:50px;
+        margin-bottom:50px;
+    }
+    .brand-content a img{
+        border-radius:0;
+    }
+    #car-left{
+        padding:50px 0;
+        text-align: center;
+    }
+    #car-right{
+        padding-top:0;
+        padding-bottom:50px;
+        text-align: center;
+    }
+    #car-left img{
+        margin:0 auto;
+    }
+    #car-right img{
+      margin:40px auto 0 auto;
+     }
+    #contact{
+        height: 680px;
+    }
+    #contact .contact-nav{
+        line-height: 50px;
+        height: 50px;
+        background:#fff;
+        font-size: 14px;
+    }
+    #contact .contact-nav .tabone{
+        background: #e82c0c;
+    }
+    #contact .contact-nav .tabtwo{
+        background: #ddd;
+    }
+    #contact .contact-nav ul li {
+        height: 50px;
+    }
+    #contact .contact-nav li span {
+        font-size: 20px;
+    }
+    #contact .contact-us {
+        padding: 20px 0px;
+        margin: 0 auto;
+    }
+    #allmap{
+        height: 710px;
+    }
+    #params {
+        margin-bottom: 110px;
+        padding-bottom: 0;
+    }
+
+    .w3layouts_team_grid img{
+        margin:0 auto;
+    }
+    #footer{
+        height: 50px;
+        background: none;
+    }
+}
+
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                              <title>百度地图API自定义地图</title>
+
+
+

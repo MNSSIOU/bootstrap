@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="lib/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/css/animate.css">
+    <link rel="stylesheet" href="lib/css/font-awesome.min.css">
+    <link rel="stylesheet" href="lib/css/jquery.lightbox.css">
+    <link rel="stylesheet" href="lib/css/mislider.css">
+    <link rel="stylesheet" href="lib/css/mislider-skin-cameo.css">
+    <link rel="stylesheet" href="lib/css/styles.css">
+    <link rel="stylesheet" href="lib/css/app.css">
+    <script type="text/javascript" src="http://api.map.baidu.com/getscript?v=2.0&ak=apgjpM8ifxSvdYeHZVMTMGvpum5FoGRe"></script>
+    <title>超跑</title>
+
+
+</head>
+
+<body class="bodyscroll" data-mcs-theme="dark" data-spy="scroll" data-target=".navbar-title" data-offset="200">
+
+<!--导航栏-->
+<nav class="navbar navbar-default navbar-fixed-top navbar-title">
+    <div class="container">
+        <div class="navbar-header">
+            <button class="navbar-toggle navbar-box" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="#home" class="navbar-brand navbar-logo"><img src="images/lanbo.png" class="img-responsive"></a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right link-text">
+                <li><a href="#home" >首页</a></li>
+                <li><a href="#brand">品牌</a></li>
+                <li><a href="#car-left">名车鉴赏</a></li>
+                <li><a href="#contact">联系我们</a></li>
+                <li><a href="#params">流行指数</a></li>
+                <li><a href="#album">炫酷车影</a></li>
+                <li><a href="#team">团队</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="navbg" ></div>
+</nav>
+
+<!--第一屏--轮播-->
+<section id="home">
+    <div class="container-fluid">
+        <div class="row wow fadeInUp">
+            <div class="col-md-12 full-width">
+
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+                    <ol class="carousel-indicators hidden-xs">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                    </ol>
+
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="images/lunbo1.jpg" class="img-responsive" >
+                            <div class="carousel-caption">
+                            </div>
+                        </div>
+                            <div class="item">
+                            <img src="images/lunbo2.jpg" class="img-responsive">
+                            <div class="carousel-caption"></div>
+                        </div>
+                        <div class="item">
+                            <img src="images/lunbo3.jpg" class="img-responsive">
+                            <div class="carousel-caption"></div>
+                        </div>
+
+                    </div>
+
+                    <span class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </span>
+                    <span class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </span>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--第二屏--品牌-->
+<section id="brand">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-4 brand-content">
+                <a href="javascript:;" >
+                    <img src="images/brand-1.jpg" class="img-responsive">
+                    <h3>设计之美</h3>
+                    <p>融合澎湃力量与独有新潮的设计</p>
+                </a>
+
+            </div>
+            <div class="col-md-4 col-sm-4 brand-content">
+                <a href="javascript:;" >
+                    <img src="images/brand-2.jpg" class="img-responsive">
+                    <h3>冠军性能</h3>
+                    <p>配备V10发动机及全时四轮驱动系统</p>
+                </a>
+
+            </div>
+            <div class="col-md-4 col-sm-4 brand-content">
+                <a href="javascript:;">
+                    <img src="images/brand-3.jpg" class="img-responsive">
+                    <h3>驾驶乐趣</h3>
+                    <p>精心研究的人体工程学设计，精准高效，奢华高贵</p>
+                </a>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--第三屏--名车鉴赏-->
+
+<section id="car-left">
+    <div class="container">
+        <div class="row shadowbox">
+            <div class="col-md-6 col-sm-7  wow fadeInLeft" data-wow-offset ="10" >
+                <div class="car-content col-md-11 col-md-offset-1">
+                    <h3>超级名车兰博基尼--<span class="span-title">毒药</span></h3>
+                    <p>匠心打造，意大利风格设计，窒息的速度，尖端科技，华丽的蜕变！</p>
+                    <p><span class="glyphicon glyphicon-fire fire-icon"></span>7速双离合变速器LDF和全新的ALA主动空气动力系统</p>
+                    <p><span class="glyphicon glyphicon-fire fire-icon"></span>全新的前后保险杠、排气管、后格栅及19寸Kari轮辋</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-5 wow fadeInRight" data-wow-offset ="10" >
+                <div class="car-content col-md-11 col-md-offset-1">
+                    <img src="images/car-1.jpg" alt="" class="img-responsive">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--第四屏--名车鉴赏-->
+
+<section id="car-right">
+    <div class="container">
+        <div class="row shadowbox">
+            <div class="col-md-6 col-sm-5   wow fadeInLeft" data-wow-offset ="10" >
+                <div class="car-content col-md-11 col-md-offset-1">
+                    <img src="images/car-2.jpg" alt="" class="img-responsive">
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-7  wow fadeInRight" data-wow-offset ="10" >
+                <div class="car-content col-md-11 col-md-offset-1">
+                    <h3>超级名车兰博基尼--<span class="span-title">蝙蝠</span></h3>
+                    <p>搭载新型V12发动机、应用碳纤维材料，澎湃动力与前沿设计并存。</p>
+                    <p><span class="glyphicon glyphicon-fire fire-icon"></span>双管路液压制动系统和真空刹车助力系统</p>
+                    <p><span class="glyphicon glyphicon-fire fire-icon"></span>动感、极致性完美的锥形空气动力学线条</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!--第五屏--固定背景-->
+<section class="fixedbg"></section>
+
+<!--第六屏--联系我们-->
+<section id="contact">
+    <div class="container-fluid">
+        <div class="row contact-nav">
+            <ul class="nav nav-tabs" role="tablist">
+                <li role="presentation" class="active col-md-4 col-sm-6 col-xs-6 tabone"><span href="#contacthome" aria-controls="contacthome" role="tab" data-toggle="tab" >联系我们</span></li>
+
+                <li role="presentation" class="col-md-8 col-sm-6 col-xs-6 tabtwo"><span href="#maphome" aria-controls="maphome" role="tab" data-toggle="tab">公司地址</span></li>
+            </ul>
+
+        </div>
+        <div class="tab-content">
+            <div class="row map tab-pane animated  zoomInLeft" role="tabpanel"  id="maphome">
+                <div class="col-md-12 baidumap" >
+
+                    <div id="allmap"></div>
+
+                </div>
+
+            </div>
+            <div class="container-fluid tab-pane  animated zoomInRight active" role="tabpanel"  id="contacthome">
+                <div class="row contact-us">
+                    <div class="col-md-4 col-md-offset-1 col-sm-5">
+                        <h3>联系我们</h3>
+                        <div class="separator_small"></div>
+                        <p>兰博基尼的标志是一头充满力量、正向对方攻击的斗牛，这与兰博基尼大马力高速跑车的
+                            特性相吻合， 据说这一标志也体现了创始人兰博基尼斗牛般不甘示弱的脾性。
+                            兰博基尼 S. P. A.汽车厂的创始人费鲁吉欧·兰博基尼和兰博基尼早期生产的跑车、拖拉机。
+                        </p>
+                        <ul class="list-inline">
+                            <li><a href="javascript:;"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="javascript:;"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="javascript:;"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="javascript:;"><i class="fa fa-vimeo"></i></a></li>
+                            <li><a href="javascript:;"><i class="fa fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 col-sm-7">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <input id="first_name" name="first_name" type="text" placeholder="姓名" class="form-control" required="">
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <input id="phone" name="phone" type="text" placeholder="电话号码" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-sm-12">
+                                <div class="form-group">
+                                    <textarea class="form-control form-content" rows="6" placeholder="留言内容"></textarea>
+                                </div>
+                                <div class="form-group text-center">
+                                    <a href="javascript:;" class="btn btn-primary contactbtn">发送信息</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+</section>
+
+<!--第七屏--固定背景-->
+<section class="whitebg"></section>
+
+<!--第八屏--流行指数-->
+<section id="params">
+  <div class="container-fluid">
+      <div class="count-container">
+          <div class="count_grid col-sm-6 col-md-3 ">
+              <div class="grid_left col-sm">
+                  <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>
+              </div>
+              <div class="grid_right">
+                  <p class="counter">1024</p>
+              </div>
+              <div class="clearfix"> </div>
+              <h4>兰博基尼</h4>
+          </div>
+          <div class="count_grid col-sm-6 col-md-3">
+              <div class="grid_left">
+                  <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+              </div>
+              <div class="grid_right">
+                  <p class="counter">224</p>
+              </div>
+              <div class="clearfix"> </div>
+              <h4>玛莎拉蒂</h4>
+          </div>
+          <div class="count_grid col-sm-6 col-md-3">
+              <div class="grid_left">
+                  <span class="glyphicon glyphicon-heart-empty" aria-hidden="true"></span>
+              </div>
+              <div class="grid_right">
+                  <p class="counter">862</p>
+              </div>
+              <div class="clearfix"> </div>
+              <h4>法拉利</h4>
+          </div>
+          <div class="count_grid col-sm-6 col-md-3">
+              <div class="grid_left">
+                  <span class="fa fa-trophy" aria-hidden="true"></span>
+              </div>
+              <div class="grid_right">
+                  <p class="counter">408</p>
+              </div>
+              <div class="clearfix"> </div>
+              <h4>保时捷</h4>
+          </div>
+
+      </div>
+  </div>
+
+</section>
+
+<!--第九屏--炫酷车影-->
+<section id="album">
+      <div class="container-fluid album">
+          <div class="col-md-3 col-sm-6 w3layouts_gallery_grid">
+              <span title="世界顶级跑车，速度无可言喻" rel="lightbox" href="images/a1.jpeg">
+                  <div class="w3layouts_team_grid">
+                      <img src="images/a1.jpeg" alt=" " class="img-responsive">
+                      <div class="w3layouts_team_grid_pos">
+                          <div class="wthree_text">
+                              <h4>Lamborghini</h4>
+                          </div>
+                      </div>
+                  </div>
+              </span>
+          </div>
+          <div class="col-md-3 col-sm-6 w3layouts_gallery_grid">
+              <span title="世界顶级跑车，速度无可言喻" href="images/a2.jpeg">
+                  <div class="w3layouts_team_grid">
+                      <img src="images/a2.jpeg" alt=" " class="img-responsive">
+                      <div class="w3layouts_team_grid_pos">
+                          <div class="wthree_text">
+                              <h4>Lamborghini</h4>
+                          </div>
+                      </div>
+                  </div>
+              </span>
+          </div>
+          <div class="col-md-3 col-sm-6 w3layouts_gallery_grid">
+              <span title="世界顶级跑车，速度无可言喻" href="images/a3.jpg">
+                  <div class="w3layouts_team_grid">
+                      <img src="images/a3.jpg" alt=" " class="img-responsive">
+                      <div class="w3layouts_team_grid_pos">
+                          <div class="wthree_text">
+                              <h4>Lamborghini</h4>
+                          </div>
+                      </div>
+                  </div>
+              </span>
+          </div>
+          <div class="col-md-3 col-sm-6 w3layouts_gallery_grid">
+              <span title="世界顶级跑车，速度无可言喻" href="images/a4.jpg">
+                  <div class="w3layouts_team_grid">
+                      <img src="images/a4.jpg" alt=" " class="img-responsive">
+                      <div class="w3layouts_team_grid_pos">
+                          <div class="wthree_text">
+                              <h4>Lamborghini</h4>
+                          </div>
+                      </div>
+                  </div>
+              </span>
+          </div>
+          <div class="col-md-3 col-sm-6 w3layouts_gallery_grid">
+              <span title="世界顶级跑车，速度无可言喻" href="images/a5.jpg">
+                  <div class="w3layouts_team_grid">
+                      <img src="images/a5.jpg" alt=" " class="img-responsive">
+                      <div class="w3layouts_team_grid_pos">
+                          <div class="wthree_text">
+                              <h4>Lamborghini</h4>
+                          </div>
+                      </div>
+                  </div>
+              </span>
+          </div>
+          <div class="col-md-3 col-sm-6 w3layouts_gallery_grid">
+              <span title="世界顶级跑车，速度无可言喻" href="images/a6.jpg">
+                  <div class="w3layouts_team_grid">
+                      <img src="images/a6.jpg" alt=" " class="img-responsive">
+                      <div class="w3layouts_team_grid_pos">
+                          <div class="wthree_text">
+                              <h4>Lamborghini</h4>
+                          </div>
+                      </div>
+                  </div>
+              </span>
+          </div>
+          <div class="col-md-3 col-sm-6 w3layouts_gallery_grid">
+              <span title="世界顶级跑车，速度无可言喻" href="images/a7.jpeg">
+                  <div class="w3layouts_team_grid">
+                      <img src="images/a7.jpeg" alt=" " class="img-responsive">
+                      <div class="w3layouts_team_grid_pos">
+                          <div class="wthree_text">
+                              <h4>Lamborghini</h4>
+                          </div>
+                      </div>
+                  </div>
+              </span>
+          </div>
+          <div class="col-md-3 col-sm-6 w3layouts_gallery_grid">
+              <span title="世界顶级跑车，速度无可言喻" href="images/a8.jpg">
+                  <div class="w3layouts_team_grid">
+                      <img src="images/a8.jpg" alt=" " class="img-responsive">
+                      <div class="w3layouts_team_grid_pos">
+                          <div class="wthree_text">
+                              <h4>Lamborghini</h4>
+                          </div>
+                      </div>
+                  </div>
+              </span>
+          </div>
+      </div>
+</section>
+
+<!--第十屏--我们的团队-->
+<section id="team">
+    <div class="container team-title">
+        <h3 class="team_head">欢迎加入我们的 <span>TEAM</span></h3>
+        <div class="team_image">
+            <img src="images/team-head-1.png" alt=" " class="img-responsive">
+        </div>
+        <p class="team_text">The first super sport utility vehicle in the world,will no longer be impossible.</p>
+    </div>
+
+    <div class="mis-stage">
+            <ol class="mis-slider">
+                <li class="mis-slide">
+                    <span class="mis-container">
+                        <figure>
+                            <img src="images/mb-1.jpg" alt="Pond with Lillies">
+                            <div class="mis-content">
+                                <div class="mis-head">
+                                    <ul>
+                                        <li><a href="javascript:;"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="javascript:;"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="javascript:;"><i class="fa fa-linkedin"></i></a></li>
+                                        <li><a href="javascript:;"><i class="fa fa-vimeo"></i></a></li>
+                                    </ul>
+                                </div>
+                                <h5>Katia Bassi</h5>
+                                <p>市场总监</p>
+                            </div>
+                        </figure>
+                    </span>
+                </li>
+                <li class="mis-slide">
+                    <span class="mis-container">
+                        <figure>
+                            <img src="images/mb-2.jpg" alt="Pond with Lillies">
+                            <div class="mis-content">
+                                <div class="mis-head">
+                                    <ul>
+                                        <li><a href="javascript:;"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="javascript:;"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="javascript:;"><i class="fa fa-linkedin"></i></a></li>
+                                        <li><a href="javascript:;"><i class="fa fa-vimeo"></i></a></li>
+                                    </ul>
+                                </div>
+                                <h5>Werner Neuhold</h5>
+                                <p>首席财政官</p>
+                            </div>
+                        </figure>
+                    </span>
+                </li>
+                <li class="mis-slide">
+                    <span class="mis-container">
+                        <figure>
+                            <img src="images/mb3.jpg" alt="Pond with Lillies">
+                            <div class="mis-content">
+                                <div class="mis-head">
+                                    <ul>
+                                        <li><a href="javascript:;"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="javascript:;"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="javascript:;"><i class="fa fa-linkedin"></i></a></li>
+                                        <li><a href="javascript:;"><i class="fa fa-vimeo"></i></a></li>
+                                    </ul>
+                                </div>
+                                <h5>Stefano Domenicali</h5>
+                                <p>首席执行官</p>
+                            </div>
+                        </figure>
+                    </span>
+                </li>
+                <li class="mis-slide">
+                    <span class="mis-container">
+                        <figure>
+                            <img src="images/mb4.jpg" alt="Pond with Lillies">
+                            <div class="mis-content">
+                                <div class="mis-head">
+                                    <ul>
+                                        <li><a href="javascript:;"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="javascript:;"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="javascript:;"><i class="fa fa-linkedin"></i></a></li>
+                                        <li><a href="javascript:;"><i class="fa fa-vimeo"></i></a></li>
+                                    </ul>
+                                </div>
+                                <h5>Umberto Tossini</h5>
+                                <p>人力资源总监</p>
+                            </div>
+                        </figure>
+                    </span>
+                </li>
+                <li class="mis-slide">
+                    <span  class="mis-container">
+                        <figure>
+                            <img src="images/mb5.jpg" alt="Pond with Lillies">
+                            <div class="mis-content">
+                                <div class="mis-head">
+                                    <ul>
+                                        <li><a href="javascript:;"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="javascript:;"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="javascript:;"><i class="fa fa-linkedin"></i></a></li>
+                                        <li><a href="javascript:;"><i class="fa fa-vimeo"></i></a></li>
+                                    </ul>
+                                </div>
+                                <h5>Stefan Gramse</h5>
+                                <p>采购总监</p>
+                            </div>
+                        </figure>
+                    </span>
+                </li>
+                <li class="mis-slide">
+                    <span class="mis-container">
+                        <figure>
+                            <img src="images/mb6.jpg" alt="Pond with Lillies">
+                            <div class="mis-content">
+                                <div class="mis-head">
+                                    <ul>
+                                        <li><a href="javascript:;"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="javascript:;"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="javascript:;"><i class="fa fa-linkedin"></i></a></li>
+                                        <li><a href="javascript:;"><i class="fa fa-vimeo"></i></a></li>
+                                    </ul>
+                                </div>
+                                <h5>Thomas Kolthoff</h5
+                                <p>质量总监</p>
+                            </div>
+                        </figure>
+                    </span>
+                </li>
+            </ol>
+        </div>
+
+</section>
+
+<!--回到顶部-->
+<section id="backtop" >
+    <a href="#home"><img src="images/backtop.png" alt=""></a>
+</section>
+
+<!--底部-->
+<footer id="footer" >
+    <div class="container hidden-xs">
+        <div class="col-md-12 autologo">
+            <img src="images/autologo.png" alt="">
+        </div>
+    </div>
+    <div class="footer-body hidden-xs">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-2 col-sm-4 one">
+                    <div class="one-text">
+                        <h3 class="text-title">客户服务</h3>
+                        <ul>
+                            <li><i class="fa fa-angle-double-right" aria-hidden="true"></i>售前咨询</li>
+                            <li><i class="fa fa-angle-double-right" aria-hidden="true"></i>售后服务</li>
+                            <li><i class="fa fa-angle-double-right" aria-hidden="true"></i>原厂配件</li>
+                            <li><i class="fa fa-angle-double-right" aria-hidden="true"></i>零配件</li>
+                            <li><i class="fa fa-angle-double-right" aria-hidden="true"></i>品牌授权</li>
+                            <li><i class="fa fa-angle-double-right" aria-hidden="true"></i>商家合作</li>
+
+
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-4 three">
+                    <div class="one-text">
+                        <h3 class="text-title">跑车型号</h3>
+                        <ul>
+                            <li><i class="fa fa-angle-double-right" aria-hidden="true"></i>Aventador</li>
+                            <li><i class="fa fa-angle-double-right" aria-hidden="true"></i>Urus</li>
+                            <li><i class="fa fa-angle-double-right" aria-hidden="true"></i>兰博基尼毒药</li>
+                            <li><i class="fa fa-angle-double-right" aria-hidden="true"></i>盖拉多</li>
+                            <li><i class="fa fa-angle-double-right" aria-hidden="true"></i>雷文顿</li>
+                            <li><i class="fa fa-angle-double-right" aria-hidden="true"></i>第六元素</li>
+
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 four">
+                    <div class="one-text">
+                        <h3 class="text-title">媒体中心</h3>
+                        <ul>
+                            <li><i class="fa fa-angle-double-right" aria-hidden="true"></i>最近新闻</li>
+                            <li><i class="fa fa-angle-double-right" aria-hidden="true"></i>宣传视频</li>
+                            <li><i class="fa fa-angle-double-right" aria-hidden="true"></i>跑车图集</li>
+                            <li><i class="fa fa-angle-double-right" aria-hidden="true"></i>品牌设计</li>
+                            <li><i class="fa fa-angle-double-right" aria-hidden="true"></i>创意广告</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 hidden-sm two ">
+                    <div class="one-text">
+                        <h3 class="text-title">关于我们</h3>
+                        <h5><span class="footer-icon"><i class="glyphicon glyphicon-map-marker"></i>&nbsp;&nbsp;公司地址</span>&nbsp;&nbsp;--&nbsp;&nbsp;江苏省徐州市泉山区</h5>
+                        <h5><span class="footer-icon"><i class="glyphicon glyphicon-phone-alt "></i>&nbsp;&nbsp;联系电话</span>&nbsp;&nbsp;--&nbsp;&nbsp;1888888888</h5>
+                        <h5><span class="footer-icon"><i class="glyphicon glyphicon-envelope "></i>&nbsp;&nbsp;地址邮箱</span>&nbsp;&nbsp;--&nbsp;&nbsp;2418838534@qq.com</h5>
+                        <h5><span class="footer-icon"><i class="glyphicon glyphicon-send "></i>&nbsp;&nbsp;邮政编码</span>&nbsp;&nbsp;--&nbsp;&nbsp;221000</h5>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+    <div class="container-fluid ">
+      <div class="col-md-12 git-text .visible-xs-block">
+
+           <img src="images/github.png" alt="">
+          <a href="http://www.baidu.com" target="_blank">MNSSIOU</a>
+
+
+       </div>
+    </div>
+</footer>
+
+
+<script src="lib/js/jquery.min.js"></script>
+<script src="lib/js/bootstrap.min.js"></script>
+<script src="lib/js/mislider.min.js"></script>
+<script src="lib/js/singlepagenav.jquery.js"></script>
+<script src="lib/js/wow.min.js"></script>
+<script src="lib/js/jquery.nicescroll.js"></script>
+<script src="lib/js/jquery.waypoints.min.js"></script>
+<script src="lib/js/jquery.countup.min.js"></script>
+<script src="lib/js/jquery.lightbox.js"></script>
+<script src="lib/js/app.js"></script>
+</body>
+
+</html>
+
+
+
