@@ -2,33 +2,36 @@
 
 
 个人说明：*此项目百分百个人独立完成，从图片处理、文本文案到代码编写，尚有不足，请指正改善*
+
 ## 主要特点
 
 > ### 1. Html5 + css3 +Bootstrap 自适应手机、平板、电脑端
 
- ##### 1.1 电脑端展示
-  
-![phone](https://www.zybuluo.com/static/img/logo.png)
+   ##### 1.1 电脑端展示
+   
+  ![pc](https://github.com/MNSSIOU/bootstrap/blob/master/refs/pc.png) 
 
- ##### 1.2 平板端展示
+  ##### 1.2 平板端展示
   
-![pad](https://www.zybuluo.com/static/img/logo.png)
+![pad](https://github.com/MNSSIOU/bootstrap/blob/master/refs/pad.png)
 
- ##### 1.3 手机端展示
+   ##### 1.3 手机端展示
   
-![pc](https://www.zybuluo.com/static/img/logo.png)
+![phone](https://github.com/MNSSIOU/bootstrap/blob/master/refs/phone.png)
 
 > ### 2. 自定义浏览器滚动条+嵌入百度地图API+入场动画
 
 ##### 2.1自定义滚动条
-![pc](https://www.zybuluo.com/static/img/logo.png)
+
+![scroll](https://github.com/MNSSIOU/bootstrap/blob/master/refs/scroll.png)
 
 ##### 2.2嵌入百度地图
 
-![pc](https://www.zybuluo.com/static/img/logo.png)
+![map](https://github.com/MNSSIOU/bootstrap/blob/master/refs/map.png)
 
 ##### 2.3入场动画
-![pc](https://www.zybuluo.com/static/img/logo.png)
+
+![enter](https://github.com/MNSSIOU/bootstrap/blob/master/refs/enter.png)
 
 ## 使用的插件
 > * jquery.countup.min.js
@@ -93,4 +96,3 @@ network connectivity.If blocked in this page load, it will be confirmed in a sub
  <script type="text/javascript" src="http://api.map.baidu.com/getscript?v=2.0&ak=apgjpM8ifxSvdYeHZVMTMGvpum5FoGRe"></script>
  
 ```
-
