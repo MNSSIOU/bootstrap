@@ -11,13 +11,12 @@
    
   ![pc](https://github.com/MNSSIOU/bootstrap/blob/master/refs/pc.png) 
 
-  |1.2 平板端展示| 1.3 手机端展示|
+  ##### 1.2 平板端展示 						1.3 手机端展示
   
 ![pad](https://github.com/MNSSIOU/bootstrap/blob/master/refs/pad.png) ![phone](https://github.com/MNSSIOU/bootstrap/blob/master/refs/phone.png)
 
-
-
-> ### 2. 自定义浏览器滚动条+嵌入百度地图API+入场动画
+  
+  > ### 2. 自定义浏览器滚动条+嵌入百度地图API+入场动画
 
 ##### 2.1嵌入百度地图
 
