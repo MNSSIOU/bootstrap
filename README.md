@@ -25,7 +25,7 @@
 
 ##### 2.2入场动画
 
-![enter](https://github.com/MNSSIOU/bootstrap/blob/master/refs/enter.png)
+![move](https://github.com/MNSSIOU/bootstrap/blob/master/refs/move.png)
 
 ## 使用的插件
 > * jquery.countup.min.js
